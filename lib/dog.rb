@@ -10,6 +10,7 @@ class Dog
   
   def self.all
     @@all.each {|dog| dog.collect}
+    dog
   end
   
       
