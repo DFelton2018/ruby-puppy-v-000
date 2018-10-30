@@ -11,7 +11,7 @@ class Dog
   def self.all
     @@all.each {|dog| dog.collect}
   end
-  end
+  
       
   
 end
